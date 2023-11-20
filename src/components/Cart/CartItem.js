@@ -7,7 +7,7 @@ const CartItem = (props) => {
   const dispatch = useDispatch();
 
   const removeItemHandler = () => {
-    dispatch(cartActions.removeItemFromCart(id));
+    dispatch(cartActions.removeItemToCart(id));
   };
   const addItemHandler = () => {
     dispatch(
